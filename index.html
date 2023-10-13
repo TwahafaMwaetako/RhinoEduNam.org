@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+  <title>Rhino Poaching Educational Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* style.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #4D6C3B;
+  color: #898989;
+}
+
+header {
+  background-color: #44523B;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/Rhino\ Video.mp4');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landing h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 2px 2px #333;
+  margin-bottom: 2rem;
+}
+
+.landing button {
+  background-color: #599A58;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.landing button:hover {
+  background-color: #44523B;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+article {
+  flex-basis: calc(33.33% - 1rem);
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+article img {
+  width: 100%;
+  height: auto;
+}
+
+.landing video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px);
+}
+
+article h2 {
+  margin-top: 0;
+}
+
+article p {
+  margin-bottom: 1rem;
+}
+
+article a {
+  display: inline-block;
+  background-color: #599A58;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+article a:hover {
+  background-color: #44523B;
+}
+
+footer {
+  background-color: #44523B;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.landing h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.landing video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(2px);
+}
+
+.landing button {
+  background-color: #599A58;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.landing button:hover {
+  background-color: #44523B;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Ministry of Environment and Tourism</a>
+        <a href="#">Importance of Rhinos</a>
+        <a href="#">How to Help</a>
+        <a href="#">Resources</a>
+      </nav>
+    </header>
+    <div class="landing">
+      <h1>Rhino Poaching Educational</h1>
+      <button id="resources-btn">Resources</button>
+      <button id="help-btn">How to Help</button>
+      <button id="importance-btn">Importance of Rhinos</button>
+      <button id="ministry-btn">Ministry of Environment and Tourism</button>
+      <video src="Rhino Video.mp4" muted loop autoplay></video>
+    </div>
+    <main>
+      <article>
+        <img src="/Images/NC-PoachedRhino-pregnant.jpg" alt="Rhino">
+        <div>
+          <h2>What is Rhino Poaching?</h2>
+          <p>Rhino poaching is the illegal hunting of rhinos for their horns, which are highly valued in some cultures for their supposed medicinal properties. Rhino poaching is a serious problem in many parts of the world, including Etosha National Park.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </article>
+      <article>
+        <img src="/Images/me.jpg" alt="Ministry of Environment and Tourism">
+        <div>
+          <h2>Ministry of Environment and Tourism's Efforts to Combat Rhino Poaching</h2>
+          <p>The Ministry of Environment and Tourism is taking action to combat rhino poaching in Namibia. Learn more about their efforts and how you can get involved.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </article>
+      <article>
+        <img src="/Images/geranimo-KsMD_tAdjg0-unsplash.jpg" alt="Importance of Rhinos">
+        <div>
+          <h2>The Importance of Rhinos</h2>
+          <p>Rhinos are an important part of the ecosystem and play a crucial role in maintaining the balance of nature. They are also a keystone species, which means that their presence or absence can have a significant impact on the environment.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </article>
+      <article>
+        <img src="/Images/rhino ranger.jpg" alt="How to Help">
+        <div>
+          <h2>How to Help Stop Rhino Poaching</h2>
+          <p>There are many ways that you can help stop rhino poaching, from supporting conservation efforts to raising awareness about the issue. Learn more about what you can do to make a difference.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </article>
+      <article>
+        <img src="/Images/keith-markilie-jBjQA3LU9Dc-unsplash.jpg" alt="Resources">
+        <div>
+          <h2>Resources</h2>
+          <p>Find more information about rhino poaching and conservation efforts, as well as ways to get involved and make a difference.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2023 Rhino Poaching in Etosha National Park</p>
+      <a href="#">Privacy Policy</a>
+    </footer>
+  </div>
+  <script>
+    const resourcesBtn = document.getElementById('resources-btn');
+    const helpBtn = document.getElementById('help-btn');
+    const importanceBtn = document.getElementById('importance-btn');
+    const ministryBtn = document.getElementById('ministry-btn');
+
+    resourcesBtn.addEventListener('click', () => {
+      // Redirect to resources page
+      window.location.href = 'resources.html';
+    });
+
+    helpBtn.addEventListener('click', () => {
+      // Redirect to how to help page
+      window.location.href = 'help.html';
+    });
+
+    importanceBtn.addEventListener('click', () => {
+      // Redirect to importance of rhinos page
+      window.location.href = 'importance.html';
+    });
+
+    ministryBtn.addEventListener('click', () => {
+      // Redirect to ministry of environment and tourism page
+      window.location.href = 'ministry.html';
+    });
+  </script>
+</body>
+</html>

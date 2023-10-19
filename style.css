@@ -164,4 +164,60 @@ body {
     text-align: justify;
   }
 
- 
+ nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #4D6C3B;
+}
+
+nav a.active {
+  background-color: #fff;
+  color: #4D6C3B;
+}
+
+article.active {
+  background-color: #fff;
+  color: #4D6C3B;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input[type="email"],
+form input[type="number"],
+form select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  
+}
+
+form button[type="submit"] {
+  background-color: #599A58;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #44523B;
+  transition: background-color 0.3s ease;
+}

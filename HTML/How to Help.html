@@ -12,12 +12,31 @@
 <body class="bg-white">
   <div class="">
     <header>
-      <nav>
-        <a href="/index.html">Home</a>
-        <a href="/HTML/Ministry of Environment and Tourism.html">Ministry of Environment and Tourism</a>
-        <a href="/HTML/Importance of Rhinos.html">Importance of Rhinos</a>
-        <a href="/HTML/How to Help.html">How to Help</a>
-        <a href="/HTML/Resources.html">Resources</a>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex justify-content-between w-100">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/HTML/Ministry of Environment and Tourism.html">Ministry of Environment and Tourism</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/HTML/Importance of Rhinos.html">Importance of Rhinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/HTML/How to Help.html">How to Help</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/HTML/Resources.html">Resources</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
@@ -140,7 +159,7 @@
           <p>
             Your donation can make a difference in the fight against rhino poaching. You can donate to the Ministry of Environment and Tourism or to one of their partner organizations. Your donation will go towards anti-poaching efforts, rhino conservation, and community development programs. Every little bit helps!
           </p>
-          <form action="https://protect.worldwildlife.org/page/52717/donate/1?en_og_source=Web_Donation&ea.tracking.id=Web_Topnav&supporter.appealCode=AWE2402OQ18336A07147RX&_gl=1*5axmku*_ga*MjExMDk2ODM5MC4xNjk3MDEyMDk5*_ga_FK6M9RK84Z*MTY5NzgyMzkxMS4xLjAuMTY5NzgyMzkxMS42MC4wLjA.*_gcl_au*NTc0MzQ1NjA5LjE2OTcwMTIwOTc.&_ga=2.251091983.827238941.1697823914-2110968390.1697012099" method="post">
+          <form action="https://example.com/donate" method="post">
             <label for="amount">Amount:</label>
             <input type="number" id="amount" name="amount" min="1" required>
             <label for="currency">Currency:</label>

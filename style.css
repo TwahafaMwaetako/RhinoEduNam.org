@@ -9,10 +9,9 @@ body {
   header {
     background-color: #44523B;
     color: #fff;
-    padding: 1rem;
     
   }
-  
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -174,7 +173,7 @@ body {
 
 nav a:hover {
   background-color: #fff;
-  color: #4D6C3B;
+  color: black !important;
 }
 
 nav a.active {
